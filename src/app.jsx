@@ -13,6 +13,7 @@ import TabelaProdutos from "./Componentes/repeticao/TabelaProdutos"
 import ParOuImpar from "./Componentes/condicional/ParOuImpar"
 import UsuarioInfo from "./Componentes/condicional/UsuarioInfo"
 import DiretaPai from "./Componentes/comunicacao/DiretaPai"
+import IndiretaPai from "./Componentes/comunicacao/IndiretaPai"
 
 export default (props) => {
     return (
@@ -20,6 +21,10 @@ export default (props) => {
             <h1>Fundamentos React</h1>
 
             <div className="Cards">
+
+            <Card titulo="#10 - Comunicação Indireta" color = "rgb(69, 100, 24)">
+                <IndiretaPai></IndiretaPai>
+            </Card>
 
             <Card titulo="#9 - Comunicação Direta" color = "rgb(24, 69, 100)">
                 <DiretaPai></DiretaPai>
@@ -49,7 +54,7 @@ export default (props) => {
             <FamiliaMembro nome="Pedro"/>
             <FamiliaMembro nome="Marcos"/>
             <FamiliaMembro nome="Bianca"/>
-            <FamiliaMembro nome="Silvana"/>
+            <FamiliaMembro nome="Rozy"/>
             </Familia>
             </Card>
 

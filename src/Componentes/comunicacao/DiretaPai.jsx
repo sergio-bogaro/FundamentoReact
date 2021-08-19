@@ -8,7 +8,7 @@ export default props => {
             <DiretaFilho texto = 'Rogerinho' numero={24} bool={true}/>
             <DiretaFilho texto = 'Jefferson' numero={24} bool={false}/>
             <DiretaFilho texto = 'Oden' numero={41} bool={true}/>
-            <DiretaFilho texto = 'Momo' numero={08} bool={true}/>
+            <DiretaFilho texto = 'Momo' numero={8} bool={true}/>
         </div>
     )
 }
