@@ -1,0 +1,11 @@
+.Contador input {
+    font-size: 1rem;
+    width:  60px;
+}
+
+.Contador Botao {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    font-size:1.4rem;
+}

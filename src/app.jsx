@@ -15,6 +15,8 @@ import UsuarioInfo from "./Componentes/condicional/UsuarioInfo"
 import DiretaPai from "./Componentes/comunicacao/DiretaPai"
 import IndiretaPai from "./Componentes/comunicacao/IndiretaPai"
 import Input from "./Componentes/formulario/Input"
+import Contador from "./Componentes/contador/contador"
+
 
 export default (props) => {
     return (
@@ -22,6 +24,10 @@ export default (props) => {
             <h1>Fundamentos React</h1>
 
             <div className="Cards">
+            
+            <Card titulo="#12 - Contador" color = "rgb(11, 71, 180)">
+                <Contador numeroInicial ={10}/>
+            </Card>
             
             <Card titulo="#11 - Componente controlado" color = "rgb(50, 7, 99)">
                 <Input></Input>
